@@ -1,0 +1,364 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Karla", sans-serif;
+  height: 100vh;
+  margin: 0;
+  min-width: 300px;
+  width: 100%;
+}
+
+/******************nav********************/
+nav {
+  background: #ff445d;
+  height: 5rem;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav h1 {
+  margin: auto;
+  padding-top: 0.3rem;
+}
+
+nav h1 a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  line-height: 2.2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/******************map********************/
+#map {
+  height: 23rem;
+  margin-top: 5rem;
+  width: 100%;
+  z-index: 0;
+}
+
+/******************filter********************/
+.filter-options {
+  align-items: center;
+  background: #000;
+  display: flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  justify-content: center;
+  position: sticky;
+  top: 5rem;
+  width: 100%;
+  z-index: 1;
+}
+
+.filter-options h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: normal;
+  line-height: 0.9;
+  margin-right: 0.5rem;
+}
+
+.filter-options select {
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  height: 1.9rem;
+  margin: 0.25rem;
+  padding: 0 0.25rem;
+  width: 11rem;
+}
+
+/******************restaurant list********************/
+#restaurants-list {
+  display: flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  list-style-type: none;
+  text-align: center;
+}
+
+.restaurant-img {
+  border-top-left-radius: 1.45rem;
+  -webkit-border-top-left-radius: 1.45rem;
+  border-top-right-radius: 1.45rem;
+  -webkit-border-top-right-radius: 1.45rem;
+  display: block;
+  height: 50%;
+  width: 100%;
+}
+
+#restaurants-list li {
+  border: 0.5px solid #4c4c4c;
+  border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  height: 500px;
+  margin: 1rem 0.76rem;
+  width: 21rem;
+}
+
+#restaurants-list li h1 {
+  font-size: 1.1rem;
+  margin-top: 1.9rem;
+}
+
+#restaurants-list li p {
+  font-size: 0.9rem;
+}
+
+#restaurants-list li a {
+  background: #ffef7c;
+  border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  color: #000;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  top: 1.7rem;
+}
+
+/******************footer********************/
+#footer {
+  background: #ff445d;
+  color: #000;
+  font-size: 1rem;
+  height: 4rem;
+  letter-spacing: 0.1rem;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+#footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+/******************breadcrumb********************/
+#breadcrumb {
+  background: #000;
+  color: #fff;
+  font-size: 1rem;
+  list-style-type: none;
+  margin-top: 5rem;
+  padding: 1rem 0 1rem 2.8rem;
+  width: 100%;
+}
+
+#breadcrumb li {
+  display: inline;
+  font-size: 1.2rem;
+}
+
+#breadcrumb li:first-of-type {
+  margin-right: 0.7rem;
+}
+
+#breadcrumb li a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#breadcrumb li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*******************restaurant details********************/
+.inside header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.inside #map-container {
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 80px;
+  width: 50%;
+}
+
+.inside #map {
+  background: #ccc;
+  height: 100%;
+  margin-top: 3.2rem;
+  width: 100%;
+}
+
+#restaurant-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  margin: 1rem 0 2rem 0.5rem;
+  text-transform: uppercase;
+}
+
+#restaurant-cuisine {
+  background: #000;
+  color: #fff;
+  display: inline;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-left: 0.5rem;
+  position: relative;
+  padding: 0.6rem;
+}
+
+#restaurant-img {
+  border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.address-hours-title {
+  background: #000;
+  border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.06rem;
+  margin-top: -0.3rem;
+  padding: 0.6rem;
+  text-transform: uppercase;
+}
+
+.address-hours {
+  background: #fff;
+  border: 2px solid #eee;
+  border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+#restaurant-address {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+#restaurant-hours {
+  display: inline-block;
+  font-weight: bold;
+}
+
+#restaurant-hours td:first-of-type {
+  text-align: left;
+}
+
+#restaurant-hours td:nth-of-type(2) {
+  text-align: right;
+}
+
+#restaurant-container {
+  background: #fff;
+  border-bottom: 1px solid #999;
+}
+
+#restaurant-container,
+#reviews-container {
+  display: block;
+  padding: 9rem 1rem 1rem 1rem;
+  width: 50%;
+}
+
+#reviews-container {
+  background: #fffaf0;
+  padding: 1rem;
+}
+
+#reviews-container h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  margin: 0.5rem 0 0 1.5rem;
+}
+
+#reviews-list {
+  margin: 0.5rem -0.5rem -2rem -0.5rem;
+  padding: 0.5rem;
+}
+
+#reviews-list li {
+  background: #fff;
+  border: 2px solid #eee;
+  border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  display: block;
+  font-size: 1rem;
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+#reviews-list li p {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+#reviews-list li p:first-of-type {
+  font-weight: bold;
+  float: left;
+}
+
+#reviews-list li p:nth-of-type(2) {
+  font-weight: bold;
+  float: right;
+}
+
+#reviews-list li p:nth-of-type(3) {
+  background: #ffcb5b;
+  border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 2rem 0 0.8rem -0.2rem;
+  padding: 0.46rem;
+  width: 4.9rem;
+}
+
+.inside #footer {
+  font-size: 0.8em;
+  width: 50%;
+}

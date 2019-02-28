@@ -1,0 +1,365 @@
+/******************tablets in portrait mode*******************/
+@media screen and ( min-width: 767px ) and ( max-width: 1050px ) and ( orientation: portrait ) {
+#restaurant-name {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+#restaurant-cuisine {
+  font-size: 0.8rem;
+  top: -0.9rem;
+}
+
+#restaurant-img {
+  margin-top: 0.7rem;
+}
+}
+
+@media screen and ( min-width: 519px ) and ( max-width: 768px ) and ( orientation: portrait ) {
+.inside #footer {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+}
+}
+
+/******************mobile in portrait mode********************/
+@media screen and ( min-width: 376px ) and ( max-width: 520px ) and ( orientation: portrait ) {
+nav {
+  height: 3.5rem;
+}
+
+nav h1 a {
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+#breadcrumb {
+  height: 3.5rem;
+  margin-top: 3.5rem;
+}
+
+.inside #map-container {
+  height: 14rem;
+  position: absolute;
+  width: 100%;
+}
+
+.inside #map {
+  height: 15rem;
+  margin-top: 2rem;
+}
+
+#restaurant-name {
+  font-size: 1.3rem;
+  margin-top: -6rem;
+}
+
+#restaurant-cuisine {
+  font-size: 0.8rem;
+  top: -1rem;
+}
+
+#restaurant-img {
+  margin-top: 0.7rem;
+}
+
+#restaurant-address,
+#restaurant-hours {
+  font-size: 0.86rem;
+}
+
+#restaurant-container,
+#reviews-container {
+  margin-top: 20rem;
+  width: 100%;
+}
+
+#reviews-container {
+  margin-top: 0;
+}
+
+#reviews-container h2 {
+  font-size: 1.3rem;
+}
+
+.inside #footer {
+  font-size: 0.8rem;
+  padding-top: 1.1rem;
+  width: 100%;
+}
+}
+
+@media screen and ( min-width: 319px ) and ( max-width: 376px ) and ( orientation: portrait ) {
+nav {
+  height: 3.5rem;
+}
+
+nav h1 a {
+  font-size: 1.2rem;
+  line-height: 2.4;
+}
+
+#breadcrumb {
+  height: 3.5rem;
+  margin-top: 3.5rem;
+}
+
+.inside #map-container {
+  height: 14rem;
+  position: absolute;
+  width: 100%;
+}
+
+.inside #map {
+  height: 15rem;
+  margin-top: 2rem;
+}
+
+#restaurant-name {
+  font-size: 1.2rem;
+  margin-top: -6rem;
+}
+
+#restaurant-cuisine {
+  font-size: 0.75rem;
+  top: -1rem;
+}
+
+#restaurant-img {
+  margin-top: 0.7rem;
+}
+
+#restaurant-hours,
+#restaurant-address {
+  font-size: 0.73rem;
+  font-size: 0.73rem;
+}
+
+#restaurant-container,
+#reviews-container {
+  margin-top: 20rem;
+  width: 100%;
+}
+
+#reviews-container {
+  margin-top: 0;
+}
+
+#reviews-container h2 {
+  font-size: 1.3rem;
+}
+
+.inside #footer {
+  font-size: 0.7rem;
+  padding-top: 1.2rem;
+  width: 100%;
+}
+}
+
+@media screen and ( max-width: 320px ) and ( orientation: portrait ) {
+nav {
+  height: 3.5rem;
+}
+
+nav h1 a {
+  font-size: 1rem;
+  line-height: 2.9;
+}
+
+#breadcrumb {
+  margin-top: 3.5rem;
+}
+
+#breadcrumb li {
+  margin-left: -0.75rem;
+}
+
+#breadcrumb li:first-of-type {
+    margin-right: 1.1rem;
+}
+
+.inside #map-container {
+  height: 14rem;
+  position: absolute;
+  width: 100%;
+}
+
+.inside #map {
+  height: 13rem;
+  margin-top: 1.5rem;
+}
+
+#restaurant-name {
+  margin-top: -7.6rem;
+}
+
+#restaurant-cuisine {
+  font-size: 0.7rem;
+  top: -1rem;
+}
+
+#restaurant-img {
+  margin-top: 0.7rem;
+}
+
+#restaurant-address,
+#restaurant-hours {
+  font-size: 0.8rem;
+}
+
+#restaurant-container,
+#reviews-container {
+  margin-top: 19rem;
+  width: 100%;
+}
+
+#reviews-container {
+  margin-top: 0;
+}
+
+#reviews-container h2 {
+  font-size: 1.3rem;
+}
+
+.inside #footer {
+  font-size: 0.7rem;
+  padding-top: 1.2rem;
+  width: 100%;
+}
+}
+
+/******************tablets in landscape mode********************/
+@media screen and ( min-width: 1366px ) and ( orientation: landscape ) {
+#restaurant-name {
+  margin-top: 0.5rem;
+}
+
+#restaurant-cuisine {
+  top: -0.9rem;
+}
+
+#restaurant-img {
+  margin-top: 0.8rem;
+}
+
+.inside #footer {
+  padding-top: 1.55rem;
+}
+}
+
+@media screen and ( min-width: 1024px ) and ( max-width: 1365px ) and ( orientation: landscape ) {
+#restaurant-name {
+  margin-top: 0.5rem;
+}
+
+#restaurant-cuisine {
+  top: -0.9rem;
+}
+
+#restaurant-img {
+  margin-top: 1rem;
+}
+
+.inside #footer {
+  padding-top: 1.5rem;
+}
+}
+
+/******************mobile in landscape mode********************/
+@media screen and ( min-width: 569px ) and ( max-width: 1023px ) and ( orientation: landscape ) {
+nav {
+  height: 3.5rem;
+}
+
+nav h1 a {
+  font-size: 1.2rem;
+  line-height: 2.4;
+}
+
+#breadcrumb {
+  margin-top: 3.5rem;
+}
+
+.inside #map {
+  margin-top: 1.9rem;
+}
+
+#restaurant-name {
+  font-size: 1.25rem;
+  margin-top: -1.5rem;
+}
+
+#restaurant-cuisine {
+  font-size: 0.8rem;
+  top: -0.9rem;
+}
+
+#restaurant-img {
+  margin-top: 0.7rem;
+}
+
+#reviews-container h2 {
+  font-size: 1.25rem;
+}
+
+.address-hours-title,
+#restaurant-address,
+#restaurant-hours,
+#reviews-list li p {
+  font-size: 0.9rem;
+}
+
+.inside #footer {
+  font-size: 0.76rem;
+  padding-top: 1.05rem;
+}
+}
+
+@media screen and ( max-width: 568px ) and ( orientation: landscape ) {
+nav {
+  height: 3.5rem;
+}
+
+nav h1 a {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+#breadcrumb {
+  margin-top: 3.5rem;
+}
+
+.inside #map {
+  margin-top: 1.9rem;
+}
+
+#restaurant-name {
+  font-size: 1.25rem;
+  margin-top: -1.5rem;
+}
+
+#restaurant-cuisine {
+  font-size: 0.8rem;
+  top: -0.9rem;
+}
+
+#restaurant-img {
+  margin-top: 0.7rem;
+}
+
+#reviews-container h2 {
+  font-size: 1.2rem;
+}
+
+.address-hours-title,
+#restaurant-address,
+#restaurant-hours,
+#reviews-list li p {
+  font-size: 0.9rem;
+}
+
+.inside #footer {
+  font-size: 0.73rem;
+  padding-top: 1.2rem;
+}
+}
