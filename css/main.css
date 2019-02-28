@@ -116,9 +116,9 @@ nav h1 a {
   width: 21rem;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h3 {
   font-size: 1.1rem;
-  margin-top: 1.9rem;
+  margin-top: 2.4rem;
 }
 
 #restaurants-list li p {
