@@ -1,6 +1,15 @@
 # DineRatings
 A mobile-ready, responsive, and accessible restaurant review web application with offline support using a service worker.
 
+## Technologies
+- JavaScript (ES6+)
+- Service Workers 
+- ARIA
+- Responsive Web Design
+- Fetch API 
+- CSS3
+- HTML5
+
 ## Get Started
 - Replace `<MAPBOX KEY HERE>` with your own token from [Mapbox](https://www.mapbox.com/)
 - Install [Python](https://www.python.org/)
