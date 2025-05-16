@@ -1,4 +1,4 @@
-# restaurant-reviews-stage-one
+# DineRatings
 A static webpage that lacks accessibility converted to a mobile-ready web application. A design that is responsive on different displays and accessibile for screen reader use. Service worker added to create an offline experience for users.
 
 ## Get Started
