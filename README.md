@@ -1,5 +1,5 @@
 # DineRatings
-A static webpage that lacks accessibility converted to a mobile-ready web application. A design that is responsive on different displays and accessibile for screen reader use. Service worker added to create an offline experience for users.
+A mobile-ready, responsive, and accessible restaurant review web application with offline support using a service worker.
 
 ## Get Started
 - Replace `<MAPBOX KEY HERE>` with your own token from [Mapbox](https://www.mapbox.com/)
