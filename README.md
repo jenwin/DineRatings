@@ -15,7 +15,7 @@ A mobile-ready, responsive, and accessible restaurant review web application wit
 - Install [Python](https://www.python.org/)
 - Python 2.x, `python -m SimpleHTTPServer 8000`
 - Python 3.x, `python -m http.server 8000`
-- Visit [http://localhost:8000](http://localhost:8000)
+- Launch [http://localhost:8000](http://localhost:8000)
 
 ## License
 GNU General Public License v3.0
