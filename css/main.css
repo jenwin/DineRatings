@@ -34,7 +34,7 @@ nav h1 a {
   letter-spacing: 0.3rem;
   line-height: 2.2;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 /******************map********************/
